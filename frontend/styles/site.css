@@ -1,0 +1,270 @@
+html{
+    margin: auto;
+    max-width: 1300px;
+    background-color: #ffffff9c;
+    color:rgba(0, 0, 0, 0.859);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcome{
+    font-size: 60px;
+}
+
+button .hamburger-icon-image {
+    display: block;
+    width: 100%;
+    padding: 0;
+    max-width: 50px;
+    min-width: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+hamburger-icon-class {
+    display: block;
+    border: 10px solid black;
+    padding: 0px;
+    margin-right: auto;
+}
+
+
+
+nav menu {
+    padding: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #B31B1B;
+}
+
+nav menu li {
+    list-style: none;
+    justify-content: center;
+    border-right: solid #222222 2px
+}
+
+nav menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px
+}
+
+nav menu li a:hover {
+    color: #222222;
+}
+
+button{
+    border: none;
+    color: none;
+}
+
+
+p {
+    font-size: 22px;
+}
+
+.game-setup{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-settings{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    background-color: #932B2B;
+    border: black solid 8px;
+    border-radius: 6px;
+    padding: 25px;
+}
+
+.game-settings h1{
+    white-space: nowrap;
+}
+
+
+
+.tense h1{
+    margin-top: 0px;
+}
+
+
+
+.question-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.question-button button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.question-button button{
+    margin-bottom: 8px;
+    border: solid black 4px;
+    border-radius: 6px;
+}
+
+.confirmation{
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid black 3px;
+    border-radius: 6px;
+}
+
+.confirmation:hover{
+   background-color: rgb(183, 91, 91);
+}
+
+.question-box{
+    margin-top: 10px;
+    background-color: #F9ECEC ;
+    border: solid black 3px;
+    border-radius: 6px;
+}
+
+.question-box p{
+    margin-left: 15px;
+}
+
+.question-box h3{
+    margin-left: 15px;
+}
+
+.question-box label{
+    margin-left: 15px;
+    
+}
+
+.enter-all{
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid black 3px;
+    border-radius: 6px;
+}
+
+.enter-single{
+    margin-top: 15px;
+    padding: 2px;
+    border: solid black 3px;
+    border-radius: 6px;
+}
+
+.response-box{
+    margin-bottom: 8px;
+}
+
+button .hamburger-icon-image {
+    display: block;
+    width: 100%;
+    padding: 0;
+    max-width: 50px;
+    min-width: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+hamburger-icon-class {
+    display: block;
+    border: 10px solid black;
+    padding: 0px;
+    margin-right: auto;
+}
+
+.mcq-box{
+    background-color: #fff0f0;
+    padding: 8px;
+}
+
+.feedback{
+    margin-top: 10px;
+    background-color: rgba(242, 88, 88, 0.654);
+    border: solid black 3px;
+    border-radius: 6px;
+}
+
+.feedback p{
+    margin-left: 15px;
+}
+
+.feedback h3{
+    margin-left: 15px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+@media (max-width: 770px) {
+    nav menu {
+        flex-direction: column;
+        background-color: #FFFFFF;
+        border: solid 2px;
+        border-radius: 6px;
+    }
+
+    nav menu li {
+        border-right: none;
+    }
+
+    nav menu li a {
+        font-size: 24px;
+        border-right: none;
+        border-bottom: solid #B31B1B 2px;
+        padding: 0px;
+        color: #222222;
+        max-width: 100%;
+    }
+
+    .game-setup{
+        flex-direction: column;
+    }
+
+    .game-settings{
+        margin-left: 0px;
+    }
+
+    .welcome{
+        font-size: 40px;
+        color: #fcfcfc;
+        font-weight: normal;
+        margin-left: 2px;
+    }
+
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        background-color: #9e0a0a;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+
+
+    .hamburger-icon-class{
+        background-color: #9e0a0a;
+        margin-left: 200px;
+        text-align: center;
+      }
+
+    .hamburger-button-lines {
+        width: 35px;
+        height: 5px;
+        background-color: #fcfcfc;
+        margin: 6px 0;
+        display: block; 
+      }
+}
+
+
+@media (max-width: 550px) {
+    .flex-row {
+        padding: 0 10px; /* Optionally adjust padding for smaller screens */
+    }
+}

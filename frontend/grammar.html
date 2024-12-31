@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+
+  <title>TiemposPerfectos</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+    
+            <div class="flex-row">
+                <h1 class="welcome">TiemposPerfectos</h1>
+    
+                <div class="hamburger-button-class">
+                    <button id="hamburger-button" class="hamburger-icon-class">
+                      <span class="hamburger-button-lines"></span>
+                      <span class="hamburger-button-lines"></span>
+                      <span class="hamburger-button-lines"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+            <nav id="hamburger-menu">
+                <menu>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="readcomp.html">Reading Comprehension</a></li>
+                  <li><a href="audio.html">Conversations</a></li>
+                  <li><a href="grammar.html">Grammar</a></li>
+                </menu>
+            </nav>
+    </header>
+
+
+
+    <div class="game-setup">
+        <div class="game-desc">
+            <h1>Game Description</h1>
+                <p>
+                The test and check page is a simple and efficient way to get your practice in
+                You will select from a drop-down, what verb tense you would like to practice. 
+                Next, you will select how many practice problems you would like to have.
+                Lastly, and the best part, you will enter in your answers and check if you are correct. 
+                Conjugating verb is hard. Don't worry, if you do not answer all your questions first try, 
+                just keep on practing until you have Tiempos Perfectos!
+                </p>
+        </div>
+
+        <aside class="game-settings">
+
+            <div class="tense">
+                <label for="verb-tense">Verb Tense:</label>
+                <input type="text" id="tenso-de-verbo"/>
+            </div>
+
+            <div class="qs">
+                <label for="amount-of-questions">Number of Questions(10-15):</label>
+                <input type="text" id="amount-of-questions"/>
+            </div>
+
+            <button id="game-settingsBTN" class="confirmation">Enter</button>
+        </aside>
+    </div>
+
+    <div id ="qbox" class="question-box">
+        <h3 id="verb1">Verb: Tense</h3>
+        <p id="verb-ex1">This is a basic exampe ___ .</p>
+
+        <div class="response-box">
+            <label for="response1">Enter your resonse: </label>
+            <input type="text" id="response1" value="response"/>
+
+            <button id="single1" class="enter-single">Check</button>
+        </div>
+    </div>
+
+    <button class="enter-all">Enter all</button>
+
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/question-gen.js"></script>
+
+
+
+</body>
+
+</html>

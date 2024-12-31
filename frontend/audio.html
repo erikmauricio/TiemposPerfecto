@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+
+  <title>TiemposPerfectos</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+    
+            <div class="flex-row">
+                <h1 class="welcome">TiemposPerfectos</h1>
+    
+                <div class="hamburger-button-class">
+                    <button id="hamburger-button" class="hamburger-icon-class">
+                      <span class="hamburger-button-lines"></span>
+                      <span class="hamburger-button-lines"></span>
+                      <span class="hamburger-button-lines"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+            <nav id="hamburger-menu">
+                <menu>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="readcomp.html">Reading Comprehension</a></li>
+                  <li><a href="audio.html">Conversations</a></li>
+                  <li><a href="grammar.html">Grammar</a></li>
+                </menu>
+            </nav>
+    </header>
+
+  <div class="game-setup">
+    <div class="game-desc">
+        <h1>Practice Description</h1>
+            <p>
+            
+            </p>
+    </div>
+
+    <aside class="game-settings">
+
+        <div class="tense">
+            <input type="radio" id="easyBtn" name="diffBtn">
+            <label for="easyBtn">Easy</label><br>
+            <input type="radio" id="medBtn" name="diffBtn">
+            <label for="medBtn">Medium</label><br>
+            <input type="radio" id="hardBtn" name="diffBtn">
+            <label for="hardBtn">Hard</label><br>
+        </div>
+
+        <div class="res-time">
+            <label for="res-interval">Response Time Interval(seconds)</label>
+            <input type="text" id="res-interval"/>
+        </div>
+
+        <button class="confirmation">Enter</button>
+    </aside>
+</div>
+
+    <div class="question-box">
+        <h3>Transcript</h3>
+        <p id="chat">Chat: </p>
+        <p id ="user"> You: </p>
+    </div>
+
+    <div class="feedback">
+        <h3>Feedback</h3>
+        
+        <p></p>
+    </div>
+
+    <script src="scripts/hamburger-menu.js"></script>
+
+
+</body>
+
+</html>
